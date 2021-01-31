@@ -1,0 +1,16 @@
+.about-header {
+  color: black;
+}
+
+.photographer-pic {
+  max-width: 100%;
+}
+
+.about-card {
+  min-width: 60%;
+}
+
+a,
+.my-name {
+  color: #923b22;
+}

@@ -1,0 +1,86 @@
+/*  Color Scheme
+ *
+ *  white       white
+ *  #bfdde6     light blue
+ *  #d05f39     copper red
+ *  #e7ad99     melon
+ *  #495867     black coral
+ *  black       black
+ *
+ */
+
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #495867;
+}
+
+.content {
+  padding: 2rem;
+  background: #bfdde6;
+  padding-bottom: 2.5rem;
+}
+
+.fixme-div {
+  height: 50vh;
+  width: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    #bdbdbd,
+    #bdbdbd 10px,
+    #9c9c9c 10px,
+    #9c9c9c 20px
+  );
+}
+
+.navbar-brand {
+  padding: 0;
+  font-weight: bold;
+}
+
+.colored-nav-border {
+  border-bottom: 7px solid;
+  border-image: linear-gradient(
+      to right,
+      #495867 20%,
+      #d05f39 20%,
+      #d05f39 40%,
+      #e7ad99 40%,
+      #e7ad99 60%,
+      #d05f39 60%,
+      #d05f39 85%,
+      #495867 85%
+    )
+    5;
+}
+
+.colored-footer-border {
+  border-top: 7px solid;
+  border-image: linear-gradient(
+      to right,
+      #495867 20%,
+      #d05f39 20%,
+      #d05f39 40%,
+      #e7ad99 40%,
+      #e7ad99 60%,
+      #d05f39 60%,
+      #d05f39 85%,
+      #495867 85%
+    )
+    5;
+}
+
+.coral-btn {
+  background: #d05f39;
+  border: none;
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+.coral-btn:hover {
+  background: #b1421e;
+}
+
+.active {
+  font-weight: bold;
+}
