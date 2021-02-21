@@ -21,18 +21,6 @@ body {
   padding-bottom: 2.5rem;
 }
 
-.fixme-div {
-  height: 50vh;
-  width: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    #bdbdbd,
-    #bdbdbd 10px,
-    #9c9c9c 10px,
-    #9c9c9c 20px
-  );
-}
-
 .navbar-brand {
   padding: 0;
   font-weight: bold;
@@ -40,22 +28,6 @@ body {
 
 .colored-nav-border {
   border-bottom: 7px solid;
-  border-image: linear-gradient(
-      to right,
-      #495867 20%,
-      #d05f39 20%,
-      #d05f39 40%,
-      #e7ad99 40%,
-      #e7ad99 60%,
-      #d05f39 60%,
-      #d05f39 85%,
-      #495867 85%
-    )
-    5;
-}
-
-.colored-footer-border {
-  border-top: 7px solid;
   border-image: linear-gradient(
       to right,
       #495867 20%,
