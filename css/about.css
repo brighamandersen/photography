@@ -1,5 +1,5 @@
 .about-header {
-  color: black;
+  color: var(--black);
 }
 
 .photographer-pic {
@@ -12,5 +12,5 @@
 
 a,
 .my-name {
-  color: #923b22;
+  color: var(--dark-copper);
 }

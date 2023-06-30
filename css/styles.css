@@ -1,24 +1,40 @@
-/*  Color Scheme
- *
- *  white       white
- *  #bfdde6     light blue
- *  #d05f39     copper red
- *  #e7ad99     melon
- *  #495867     black coral
- *  black       black
- *
- */
+:root {
+  /* Color Scheme */
+  --white: white;
+  --light-blue: #bfdde6;
+  --copper: #d05f39;
+  --dark-copper: #b1421e;
+  --coral: #e7ad99;
+  --gray: #495867;
+  --black: black;
+  /* Other */
+  --navbar-footer-height: 70px;
+}
 
 html,
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: #495867;
+  color: var(--gray);
 }
 
 .content {
   padding: 2rem;
-  background: #bfdde6;
+  background: var(--light-blue);
   padding-bottom: 2.5rem;
+  /* Have main content be whatever vertical space is left that navbar and footer didn't take */
+  min-height: calc(
+    100vh - var(--navbar-footer-height) - var(--navbar-footer-height)
+  );
+}
+
+nav {
+  min-height: var(
+    --navbar-footer-height
+  ); /* Min height and not just height because navbar expands with mobile hamburger menu */
+}
+
+.nav-footer {
+  height: var(--navbar-footer-height);
 }
 
 .navbar-brand {
@@ -30,27 +46,27 @@ body {
   border-bottom: 7px solid;
   border-image: linear-gradient(
       to right,
-      #495867 20%,
-      #d05f39 20%,
-      #d05f39 40%,
-      #e7ad99 40%,
-      #e7ad99 60%,
-      #d05f39 60%,
-      #d05f39 85%,
-      #495867 85%
+      var(--gray) 20%,
+      var(--copper) 20%,
+      var(--copper) 40%,
+      var(--coral) 40%,
+      var(--coral) 60%,
+      var(--copper) 60%,
+      var(--copper) 85%,
+      var(--gray) 85%
     )
     5;
 }
 
-.coral-btn {
-  background: #d05f39;
+.copper-btn {
+  background: var(--copper);
   border: none;
   letter-spacing: 1px;
   font-size: large;
 }
 
-.coral-btn:hover {
-  background: #b1421e;
+.copper-btn:hover {
+  background: var(--dark-copper);
 }
 
 .active {

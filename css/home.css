@@ -3,5 +3,5 @@
 }
 
 .home-header {
-  color: black;
+  color: var(--black);
 }

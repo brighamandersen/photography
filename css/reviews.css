@@ -1,5 +1,5 @@
 .reviews-header {
-  color: black;
+  color: var(--black);
 }
 
 .five-stars-img {
@@ -8,9 +8,9 @@
 }
 
 .card-header {
-  color: #d05f39;
+  color: var(--copper);
 }
 
 .card-text {
-  color: #495867;
+  color: var(--gray);
 }
