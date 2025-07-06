@@ -6,4 +6,4 @@
 
 ![Demo Screenshot 3](./README-demo-screenshot3.webp)
 
-Have an exciting event coming up and want to make sure you capture those memories? Here's an photographer informational site where you look into hiring a photographer. Created using HTML and Bootstrap CSS.
+Have an exciting event coming up and want to make sure you capture those memories? Here's an photographer marketing site where you look into hiring a photographer. Created using HTML and Bootstrap CSS.
