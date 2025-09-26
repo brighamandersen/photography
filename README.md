@@ -7,3 +7,10 @@ Have an exciting event coming up and want to make sure you capture those memorie
 ![Demo Screenshot 2](./README-demo-screenshot2.webp)
 
 ![Demo Screenshot 3](./README-demo-screenshot3.webp)
+
+### Deploying to Production
+
+```bash
+cd path/to/repo
+./deploy/deploy.sh
+```
